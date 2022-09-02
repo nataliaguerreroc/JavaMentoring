@@ -1,0 +1,60 @@
+ENUNCIADO 1
+
+La liga de baloncesto de una pais, tiene los datos de cada uno de los jugadores que juega de ella.
+Con estos datos (Nombre del jugador, altura del jugador) la liga quiere saber cuales con las alturas mas frecuentes
+en sus jugadores. Para ello al programa se le brindara una lista de jugadores con su nombre y altura.
+
+INPUT:
+El programa debe recibir un número M que será el número de jugadores en lista. Luego se leerán M líneas, cada una
+describe a un jugador con su nombre N, y la altura A (en cm y un numero entero positivo, no superior a 210)
+OUTPUT:
+El programa debe mostrar por linea, cada altura diferente encontrada y la frecuencia en la que aparece
+de la siguiente forma: ALTURA cm FRECUENCIA. (El orden no importa)
+
+Ejemplo:
+INPUT:
+5
+MICHAEL 190
+GEORGE 210
+ALBERTO 185
+JOSE 189
+JORGE 190
+OUTPUT:
+185 1
+189 1
+190 2
+210 1
+
+ENUNCIADO 2
+La liga de baloncesto de una pais, tiene los datos de cada uno de los jugadores que juega de ella.
+Con estos datos (Nombre del jugador, altura del jugador) la liga quiere realizar la siguiente consulta, dada
+una lista de jugadores con su nombre y altura, se quiere consultar aquellos que tengan la altura igual a una altura ingresada
+
+INPUT
+El programa debe recibir un número M que será el número de jugadores en lista. Luego se leerán M líneas, cada una
+describe a un jugador con su nombre N, y la altura A. Luego se ingresa un valor q, un indefinido numero de veces, hasta
+que q = 0
+
+OUTPUT
+El programa debe mostrar los nombres de los jugadores, cuya altura sea igual a la ingresada, en caso de no encontrar
+jugadores, se debe mostrar un mensaje que diga: "NO EXISTE". Se debe dejar un espacio por cada consulta
+
+Ejemplo
+INPUT
+6
+MICHAEL 190
+GEORGE 210
+ALBERTO 185
+JOSE 189
+JORGE 190
+190
+185
+110
+0
+OUTPUT
+MICHAEL
+JORGE
+
+ALBERTO
+
+NO EXISTE
